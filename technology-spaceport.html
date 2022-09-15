@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/destination.css">
+    <link rel="stylesheet" href="css/crew.css">
+    <link rel="stylesheet" href="css/technology.css">
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body class="">
+    <section id="landing-page" class="crew overflow-hidden">
+      <nav class=" pt-6 md:pt-6 flex justify-end items-center ">
+        <div class="flex justify-between items-center nav-container">
+          <div class="nav-logo-container">
+            <img src="./assets/shared/logo.svg" alt="" class="w-11 h-11">
+          </div>  
+          <div class="flex">
+            <div class="nav-line mt-8 -mr-10 hidden md:block"></div>
+            <div class="menu-item-container space-x-6 hidden sm:flex   pl-10 md:pl-24  pr-10 md:pr-48 backdrop-blur items-center font-nav ">
+              <a href="./index.html" class="text-white "><span class="pr-2 ">00</span> <span class="text-slate-300">HOME</span></a>
+              <a href="./destination-moon.html" class="text-white "><span class="pr-2">01</span> <span class="text-slate-300">DESTINATION</span></a>
+              <a href="./crew-commander.html" class="text-white"><span class="pr-2">02</span> <span class="text-slate-300">CREW</span></a>
+              <a href="./technology-vehicle.html" class="text-white  border-b-2 py-8 md:py-5"><span class="pr-2">03</span> <span class="text-slate-300">TECHNOLOGY</span></a>
+            </div>
+            <div class="bars-container marker: block sm:hidden md:hidden mr-6 cursor-pointer">
+              <i class="fa-solid fa-bars text-2xl text-white"></i>
+            </div>
+          </div>
+        </div>
+        
+      </nav>
+      <div class="z-[1] container mx-auto absolute left-0 flex justify-center mt-2 hidden mobile-menu-items bg-transparent transition-all duration-700 ease-out">
+        <div class=" space-y-6  flex flex-col justify-center items-center font-nav py-12 z-10 w-96 rounded-md ">
+          <a href="./index.html" class="text-black text-left">HOME</a>
+          <a href="./destination-moon.html" class="text-black text-left">DESTINATION</a>
+          <a href="./crew-commander.html" class="text-black text-left">CREW</a>
+          <a href="./technology-vehicle.html" class="text-black text-left">TECHNOLOGY</a>
+        </div>
+      </div>
+      <h3 class="font-nav text-xl mt-16 text-white container mx-auto text-center md:text-left"><span class="mr-5 text-slate-400">03</span>SPACE LAUNCH 101</h3>
+     <div class="relative">
+       
+      <div class=" flex flex-col md:flex-row justify-center items-center absolute top-0 right-0  hidden md:flex">
+     
+        <img src="./assets/technology/image-spaceport-portrait.jpg" alt="" class="w-96 h-full">
+      </div>
+      <div class=" flex justify-center items-center absolute top-14 left-1 sm:top-0  md:hidden  ">
+        <img src="./assets/technology/image-spaceport-landscape.jpg" alt="" class=" mt-10">
+    </div>
+      <div class="flex flex-col-reverse  md:flex-row  container mx-auto items-start justify-start ">
+
+        <div class="w-full md:w-1/2 ml-0 md:ml-5 mt-72 sm:mt-96 text-white text-center md:text-left font-nav lg:mt-20 flex flex-col justify-start items-center">
+          <div class="flex flex-col md:flex-row space-x-0 md:space-x-6 space-y-8 md:space-y-0 justify-center items-center md:items-start md:justify-start">
+            <div class="flex flex-row md:flex-col text-white space-y-0 space-x-6 md:space-x-0 md:space-y-8 font-bold">
+                <a href="./technology-vehicle.html" class="bg-transparent border border-slate-700  rounded-full w-10 h-10 md:w-14 md:h-14 text-center flex justify-center items-center ">1</a>
+                <a href="./technology-capsule.html"class="bg-transparent border border-slate-700  rounded-full w-10 h-10 md:w-14 md:h-14 text-center flex justify-center items-center">2</a>
+                <a href="./technology-spaceport.html"class="text-black bg-white rounded-full w-10 h-10 md:w-14 md:h-14 text-center flex justify-center items-center">3</a>
+              </div>
+              <div class="font-nav mr-80">
+                <div class="uppercase text-xs text-slate-400 mb-3">the terminology...</div>
+                <div class="text-4xl uppercase mb-4 text-slate-300">Spaceport</div>
+                <p class="text-sm  text-center md:text-left">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
+              </div>
+          </div>
+        </div>
+       
+      </div>
+     </div>
+    </section>
+    
+    <script src="js/script.js"></script>
+  </body>
+  </html>
+</body>
+</html>

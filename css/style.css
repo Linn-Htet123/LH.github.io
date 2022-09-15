@@ -1,0 +1,61 @@
+
+
+.landing-page{  
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/home/background-home-desktop.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.nav-line{
+    width:450px;
+    height: 1px;
+    z-index:1;
+    background-color: rgba(240, 248, 255, 0.514);
+} 
+.menu-item-container{
+    background-color: #9192914f;
+    /* font-family: 'Red Hat Mono', monospace; */
+    /* backdrop-filter: blur(8px); */
+}
+.nav-container{
+    width:98%;
+}
+.so-u-want{
+    font-family: 'Red Hat Mono', monospace;
+}
+.space-des{
+       font-family: 'Playfair Display', serif;
+}
+.explore-btn{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    font-family: 'Playfair Display', serif;
+};
+@media screen and (max-width:768px){
+    .landing-page{  
+        height: 100vh;
+        width: 100%;
+        background-image: url(../assets/home/background-home-mobile.jpg);
+        background-position: center center;
+    }
+    
+}
+@media screen and (max-width:480px){
+    .landing-page{
+        height: 100vh;
+        background-image: url(../assets/home/background-home-mobile.jpg);
+        background-position: cover ;
+        background-repeat: no-repeat;
+        background-size: 100% 100% ;
+    }
+    .explore-btn{
+        width:160px;
+        height:160px;
+        border-radius: 50%;
+        font-family: 'Playfair Display', serif;
+    };
+}
